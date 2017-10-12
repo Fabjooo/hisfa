@@ -1,0 +1,365 @@
+.secondrow {
+	margin-top: 50px;
+}
+
+.pf-block {
+	padding: 0 30px;
+}
+
+.pf-block__title {
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #FFF;
+	margin-bottom: 25px;
+	font-family: 'Actor', sans-serif;
+}
+
+.pf-block__title__edit {
+	float: right;
+	background-color: #cc861e;
+	border-color: transparent;
+	border-radius: 15px;
+	padding: 4px 10px;
+	font-size: 10px;
+	line-height: 10px;
+	outline: none;
+}
+
+.pf-block__body {
+	color: #cccccc;
+}
+
+.user-row {
+	display: flex;
+}
+
+.user-col {
+	flex: 1;
+}
+
+.user__info {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.user__image-wrapper {
+	display: block;
+	text-align: center;
+}
+
+.user__image {
+	display: block;
+	border-radius: 50%;
+	width: 115px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+
+.profile--image{
+	display: block;
+	width: 40%;
+	height: 40%;
+	padding-bottom: 10px;
+}
+
+.profile--section--info {
+	padding-top: 10px;
+}
+
+#avatarUpload {
+	padding-top: 10px;
+}
+
+.profielNaam-Email {
+	font-size: 1.2em;
+}
+
+span {
+	font-size: 0.9em;
+}
+
+
+/*Meldingen en Notificaties*/
+
+.panel-heading {
+	margin-top: -20px;
+}
+
+.h6_melding {
+	margin-bottom: -10px;
+}
+
+.meldingrow {
+	margin-left: 0.5em;
+	margin-top: -60px;
+}
+
+
+/* sliders grondstofsilo notificatie */
+
+.notifications__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 0;
+}
+
+.primeSwitch {
+	position: relative;
+	width: 90px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+.primeSwitch-checkbox {
+	display: none;
+}
+
+.primeSwitch-label {
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	border: 2px solid #999999;
+	border-radius: 20px;
+}
+
+.primeSwitch-inner {
+	display: block;
+	width: 200%;
+	margin-left: -100%;
+	transition: margin 0.3s ease-in 0s;
+}
+
+.primeSwitch-inner:before,
+.primeSwitch-inner:after {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 30px;
+	padding: 0;
+	line-height: 30px;
+	font-size: 14px;
+	color: white;
+	font-family: Trebuchet, Arial, sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+
+.primeSwitch-inner:before {
+	content: "ON";
+	padding-left: 10px;
+	background-color: #34C280;
+	color: #FFFFFF;
+}
+
+.primeSwitch-inner:after {
+	content: "OFF";
+	padding-right: 10px;
+	background-color: #EEEEEE;
+	color: #999999;
+	text-align: right;
+}
+
+.primeSwitch-switch {
+	display: block;
+	width: 22px;
+	height: 26px;
+	margin: 4px;
+	background: #FFFFFF;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 56px;
+	border: 2px solid #999999;
+	border-radius: 20px;
+	transition: all 0.3s ease-in 0s;
+}
+
+.primeSwitch-checkbox:checked+.primeSwitch-label .primeSwitch-inner {
+	margin-left: 0;
+}
+
+.primeSwitch-checkbox:checked+.primeSwitch-label .primeSwitch-switch {
+	right: 0px;
+}
+
+
+/*sliders afvalsilo notificatie*/
+
+.wasteSwitch {
+	position: relative;
+	width: 90px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+.wasteSwitch-checkbox {
+	display: none;
+}
+
+.wasteSwitch-label {
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	border: 2px solid #999999;
+	border-radius: 20px;
+}
+
+.wasteSwitch-inner {
+	display: block;
+	width: 200%;
+	margin-left: -100%;
+	transition: margin 0.3s ease-in 0s;
+}
+
+.wasteSwitch-inner:before,
+.wasteSwitch-inner:after {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 30px;
+	padding: 0;
+	line-height: 30px;
+	font-size: 14px;
+	color: white;
+	font-family: Trebuchet, Arial, sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+
+.wasteSwitch-inner:before {
+	content: "ON";
+	padding-left: 10px;
+	background-color: #34C280;
+	color: #FFFFFF;
+}
+
+.wasteSwitch-inner:after {
+	content: "OFF";
+	padding-right: 10px;
+	background-color: #EEEEEE;
+	color: #999999;
+	text-align: right;
+}
+
+.wasteSwitch-switch {
+	display: block;
+	width: 22px;
+	height: 26px;
+	margin: 4px;
+	background: #FFFFFF;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 56px;
+	border: 2px solid #999999;
+	border-radius: 20px;
+	transition: all 0.3s ease-in 0s;
+}
+
+.wasteSwitch-checkbox:checked+.wasteSwitch-label .wasteSwitch-inner {
+	margin-left: 0;
+}
+
+.wasteSwitch-checkbox:checked+.wasteSwitch-label .wasteSwitch-switch {
+	right: 0px;
+}
+
+
+/*nieuwe gebruiker toevoegen*/
+
+.userrow {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 0.5em;
+}
+
+.labelInputveld {
+	margin-bottom: 0.5em;
+	display: flex;
+}
+
+.labelInputveld > input {
+	margin-bottom: 0.6em;
+}
+
+.labelInputveld>input {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border-color: #EEEEEE;
+}
+
+.labelInputBox > input{
+	width: 20px;
+	height: 15px;
+	margin: 15px auto;
+	position: relative;
+}
+
+.vraagRollenGebruiker {
+	font-size: 1.2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#userAdd_submit{
+	margin-top: 1em;
+	margin-bottom: 1em;
+
+}
+
+.user-rights {
+
+	padding-left: 2%;
+	padding-right: 2%;
+
+	.table-data,
+	.table-header {
+		text-align: center;
+	}
+
+	.buttons a{
+		margin-top: 15px;
+	}
+
+	.buttons a,
+	.buttons input {
+		width: 100%;
+	}
+
+}
+/*Layout voor Gegevens wijzigen zoals bij Profile*/
+.panel-body{
+	background-color: #392F49;
+}
+
+.row{
+	background-color: #392F49;
+	border-color: #392F49;
+}
+
+.panel{
+	border-color: #392F49;
+}
+
+.user__info__name, .user__info__email, .user__info__huidig-wachtwoord, .user__info__wachtwoord, .user__info__bevestig-nieuw-wachtwoord{
+	color: white;
+}
+
+.fileToUpload{
+	color:white;
+	margin-top:10px;
+}
+
+#profile_submit{
+	margin-bottom: 50px;
+}
+/*END Layout Gegevens wijzigen*/

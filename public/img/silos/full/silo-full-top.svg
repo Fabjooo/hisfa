@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="39px" viewBox="0 0 70 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>silo-full-top</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="75.324009%" id="linearGradient-1">
+            <stop stop-color="#E43034" offset="0%"></stop>
+            <stop stop-color="#FB3060" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dasboard-overview-Portrait" transform="translate(-125.000000, -123.000000)" fill="url(#linearGradient-1)">
+            <g id="Silo-2" transform="translate(125.000000, 123.000000)">
+                <g id="Hisfa_Silo-01">
+                    <g id="Silo">
+                        <path d="M34.9606426,0.123338148 C71.2257028,0.123338148 69.8200803,9.55870644 69.8200803,11.4872666 L69.8200803,32.7462782 C69.8200803,32.7462782 55.9072289,38.4590769 34.9606426,38.4590769 C14.0140562,38.4590769 0.101204819,32.7462782 0.101204819,32.7462782 L0.101204819,11.4872666 C0.101204819,9.32604584 -1.29598394,0.123338148 34.9606426,0.123338148 L34.9606426,0.123338148 Z M34.873494,4.66162135 C18.0425703,4.66162135 4.39678715,7.36384804 4.39678715,10.0044057 C4.39678715,12.6449633 18.0425703,14.7893651 34.873494,14.7893651 C51.7044177,14.7893651 65.3502008,12.6477664 65.3502008,10.0072088 C65.3502008,7.36665118 51.7072289,4.66162135 34.873494,4.66162135 L34.873494,4.66162135 Z" id="silo-full-top"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

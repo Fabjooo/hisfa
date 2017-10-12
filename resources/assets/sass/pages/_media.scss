@@ -1,0 +1,70 @@
+// # ExtraSmall Mobile
+@media screen and (min-width: 400px) {
+    #MeldingenNotificatiesTitel{
+        margin-top:1.5em;
+    }
+}
+
+// # Mobile
+@media screen and (min-width: 480px) {
+    .page-content {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        &.padding {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    }
+}
+
+// # Tablet
+@media screen and (min-width: 768px) {
+    .page-content {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        &.padding {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    }
+
+    #MeldingenNotificatiesTitel{
+        margin-top: 0em;
+    }
+
+    .secondrow > .col-sm-6{
+        width: 70%;
+    }
+}
+
+// # Desktop
+@media screen and (min-width: 992px) {
+    .page-content {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        &.padding {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+    }
+
+    .secondrow > .col-sm-6{
+        width: 60%;
+    }
+}
+
+// # Huge
+@media screen and (min-width: 1280px) {
+    .page-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        &.padding {
+            padding-top: 75px;
+            padding-bottom: 75px;
+        }
+    }
+
+    .secondrow > .col-sm-6{
+        width: 50%;
+    }
+}
